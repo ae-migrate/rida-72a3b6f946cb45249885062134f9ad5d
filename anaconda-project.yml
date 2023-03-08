@@ -1,0 +1,22 @@
+name: Timeseries
+
+description: Build timeseries forecasting models using statsmodels. [Tutorial]
+
+commands:
+  notebook:
+    notebook: build_model.ipynb
+
+packages:
+  - python=3.7
+  - notebook=6.0
+  - pandas=0.24
+  - dask=2.1
+  - statsmodels=0.10
+  - matplotlib=3.0
+  - hvplot=0.4
+
+platforms:
+  - linux-64
+
+env_specs:
+  anaconda201908_py37: {}
